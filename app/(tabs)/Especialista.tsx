@@ -2,8 +2,8 @@ import { FlatList, StyleSheet, Text, View } from 'react-native';
 
 const listaEspeciais = [
   { id: '1', nome: 'Dr. Altermir Poli', area: 'Clínica Geral / Implantes' },
-  { id: '2', nome: 'Dra Ana Célia', area: 'Endodontia / Canal' },
-  { id: '3', nome: 'Dr Reginaldo Candido', area: 'Cirurgia / Extração' },
+  { id: '2', nome: 'Dra. Ana Célia', area: 'Endodontia / Canal' },
+  { id: '3', nome: 'Dr. Reginaldo Candido', area: 'Cirurgia / Extração' },
 ];
 
 export default function EspecialistasScreen() {

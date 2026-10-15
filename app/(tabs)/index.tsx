@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Alert, Button, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { useAgendamentos } from '../context/AgendamentosContext';
 
-const especialistas = ['Dr. Altermir Poli', 'Dra Ana Célia', 'Dr Reginaldo Candido'];
+const especialistas = ['Dr. Altermir Poli', 'Dra. Ana Célia', 'Dr. Reginaldo Candido'];
 const servicos = ['Consulta Convencional', 'Tratamento Canal', 'Limpeza', 'Extração', 'Implante'];
 
 export default function AgendarScreen() {
